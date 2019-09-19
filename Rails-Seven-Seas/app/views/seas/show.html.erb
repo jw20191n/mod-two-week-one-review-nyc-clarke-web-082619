@@ -20,13 +20,14 @@
       </ul>
     </div>
 
-    <%= form_for(sea_path, :method => :delete) do |f| %>
-      <%= f.submit :value=>"Delete"%>
-    <% end %>
+    <%# <%= form_for(sea_path, :method => :delete) do |f| %>
+      <%# <%= f.submit :value=>"Delete"%>
+    <%# <% end %> 
 
-
-    <%# <%=  link_to "Delete Sea", sea_path(@sea), method: :delete  %> 
-
+  <form>
+   <%=  link_to "Delete Sea", sea_path(@sea), method: :delete  %> 
+  </form>
+  
   </div>
 
 
